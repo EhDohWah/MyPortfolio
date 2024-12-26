@@ -1,5 +1,6 @@
 {
     "version": 2,
+    "public": "public",
       "framework": null,
     "functions": {
         "api/index.php": { "runtime": "vercel-php@0.6.0" }
@@ -11,7 +12,7 @@
     "env": {
         "APP_ENV": "production",
         "APP_DEBUG": "true",
-        "APP_URL": "https://yourprojectdomain.com",
+        "APP_URL": "https://my-portfolio-two-peach-10.vercel.app/",
         "APP_KEY": "base64:D8D6EqKpjYjWHDAYIajCA9XcjYxYlol9/HPafOxhWwI=",
 
 
