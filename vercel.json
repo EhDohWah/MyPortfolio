@@ -7,7 +7,28 @@
     "routes": [{
         "src": "/(.*)",
         "dest": "/api/index.php"
-    }],
+    },
+    {
+        "src": "/import/assets/img(.*)",
+        "dest": "/public/import/assets/img/$1"
+    },
+    {
+        "src": "/import/assets/css(.*)",
+        "dest": "/public/import/assets/css/$1"
+    },
+    {
+        "src": "/import/assets/js(.*)",
+        "dest": "/public/import/assets/js/$1"
+    },
+    {
+        "src": "/import/assets/vendor(.*)",
+        "dest": "/public/import/assets/vendor/$1"
+    },
+    {
+        "src": "/import/assets/vendor/aos(.*)",
+        "dest": "/public/import/assets/vendor/aos/$1"
+    }
+    ],
     "env": {
         "APP_ENV": "production",
         "APP_DEBUG": "true",
